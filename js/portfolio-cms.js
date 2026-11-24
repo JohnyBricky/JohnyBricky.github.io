@@ -145,6 +145,8 @@
         <div class="cta-row" style="${sec.style?.align === "center" ? "justify-content:center;" : ""}">
           ${d.primaryCtaLabel ? `<a class="btn primary" href="${esc(safeUrl(d.primaryCtaHref))}">${esc(d.primaryCtaLabel)}</a>` : ""}
           ${d.secondaryCtaLabel ? `<a class="btn" href="${esc(safeUrl(d.secondaryCtaHref))}" target="_blank" rel="noopener noreferrer">${esc(d.secondaryCtaLabel)}</a>` : ""}
+          ${config.systemSettings?.github ? `<a class="btn" href="${esc(safeUrl(config.systemSettings.github))}" target="_blank" rel="noopener noreferrer">GitHub &#8599;</a>` : ""}
+          <a class="btn" href="mailto:${esc(config.systemSettings?.email || "johnbricksireneo@gmail.com")}?subject=Resume%20Request">Request CV &#8599;</a>
           <a class="btn" href="#sec-projects">Browse Projects</a>
         </div>
       </div>
@@ -207,9 +209,14 @@
       }
     }
 
-    const footRight = item.footerLinkHref
-      ? `<a href="${esc(safeUrl(item.footerLinkHref))}" target="_blank" rel="noopener noreferrer">${esc(item.footerLinkLabel || "Open ↗")}</a>`
-      : `<span>${esc(item.footerRight || "")}</span>`;
+    let footRight = `<span>${esc(item.footerRight || "")}</span>`;
+    if (item.footerLinkHref) {
+      const link1 = `<a href="${esc(safeUrl(item.footerLinkHref))}" target="_blank" rel="noopener noreferrer">${esc(item.footerLinkLabel || "Open ↗")}</a>`;
+      const link2 = item.footerSecondaryLinkHref
+        ? `<a href="${esc(safeUrl(item.footerSecondaryLinkHref))}" target="_blank" rel="noopener noreferrer">${esc(item.footerSecondaryLinkLabel || "Source ↗")}</a>`
+        : "";
+      footRight = `<span style="display:inline-flex;gap:14px;align-items:center;">${link1}${link2}</span>`;
+    }
 
     return `
       <article class="card ${isFeatured ? "featured" : ""} ${isRow ? "row-card" : ""}" data-cat="${esc(item.cat || "fullstack")}">
