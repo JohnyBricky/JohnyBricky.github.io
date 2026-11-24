@@ -203,7 +203,8 @@
             "description": "Built a responsive PHP/HTML/CSS/Bootstrap web application, a normalized MySQL inventory CRUD database, an OOP Java file-processing utility, and a C# Windows Forms + MS Access desktop system.",
             "tech": ["PHP", "MySQL", "Java", "C#", "Bootstrap"],
             "footerLeft": "University of Makati",
-            "footerRight": "Web & Desktop Foundations"
+            "footerLinkLabel": "View Repository ↗",
+            "footerLinkHref": "https://github.com/Rouhi101522/OOP_Finals_Event_Scheduler"
           }
         ]
       }
