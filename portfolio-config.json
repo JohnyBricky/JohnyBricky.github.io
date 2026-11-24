@@ -150,6 +150,24 @@
             "footerLinkHref": "https://canva.link/x1ennc8ithgtxlc"
           },
           {
+            "id": "proj-cleanify",
+            "visible": true,
+            "featured": false,
+            "cat": "fullstack",
+            "meta": "Web Design & Front-End · Cleanify",
+            "title": "Cleanify — Cleaning Services & Booking Website",
+            "description": "Redesigned and modernized a 5-page cleaning services platform featuring a responsive Bootstrap 5 layout, service rate catalog, product formulation store, interactive booking schedule, and leadership showcase.",
+            "image": "screenshots/cleanify-logo.png",
+            "imageAlt": "Cleanify Logo",
+            "imageMode": "logo",
+            "tech": ["HTML5", "CSS3", "Bootstrap 5", "Responsive UI", "GitHub Pages"],
+            "footerLeft": "Cleanify (2022–2026)",
+            "footerLinkLabel": "Live Demo ↗",
+            "footerLinkHref": "https://johnybricky.github.io/Cleanify-v2.0/index.html",
+            "footerSecondaryLinkLabel": "Source Code ↗",
+            "footerSecondaryLinkHref": "https://github.com/JohnyBricky/Cleanify-v2.0"
+          },
+          {
             "id": "proj-awareim",
             "visible": true,
             "featured": false,
