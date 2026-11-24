@@ -1,0 +1,20 @@
+# Nested project repositories (hosted in their own GitHub repos)
+Project Files/
+
+# Runtime / DB / Logs / OS files
+*.db
+*.sqlite
+*.sqlite3
+logs/
+*.log
+*.pid
+uploads/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/

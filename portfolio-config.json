@@ -1,0 +1,250 @@
+{
+  "version": "1.0.0",
+  "systemSettings": {
+    "siteTitle": "John Bricks F. Ireneo — Software Developer & IT Operations",
+    "seoDescription": "Full-Stack Developer & IT Operations portfolio featuring SaaS automation, API integrations, Microsoft Entra ID & Uptime Kuma monitoring, mobile apps, and NGO systems.",
+    "brandName": "John Bricks F. Ireneo",
+    "availabilityLabel": "Available for Software Dev & IT Ops",
+    "showAvailability": true,
+    "location": "Philippines",
+    "email": "johnbricksireneo@gmail.com",
+    "phone": "+63 956 934 4631",
+    "linkedin": "https://www.linkedin.com/in/johnbricksireneo",
+    "github": "",
+    "features": {
+      "enableFilterBar": true,
+      "enableLightbox": true,
+      "enableShortcut": true
+    },
+    "studioSecurity": {
+      "requirePassphrase": true,
+      "localOnly": false,
+      "passphraseHash": "243d7ce86a296929887f900d717222fae01072e9cdceb6f2056fe413e76ac325"
+    },
+    "tokens": {
+      "bg": "#f7f6f2",
+      "surface": "#ffffff",
+      "surfaceSubtle": "#efece4",
+      "ink": "#161615",
+      "inkMuted": "#575651",
+      "border": "#dfddd4",
+      "accent": "#1e4d3b",
+      "radius": 6,
+      "maxWidth": 1080,
+      "fontScale": 1
+    }
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "visible": true,
+      "kicker": "Software Developer · API Integration · IT Operations",
+      "title": "Building practical SaaS tools, integrations, and reliable systems.",
+      "layout": "split-ledger",
+      "style": {
+        "surface": "paper",
+        "padding": "spacious",
+        "divider": true,
+        "align": "left"
+      },
+      "data": {
+        "lead": "Full-Stack Developer with nearly 2 years of hands-on production experience (Feb 2025 – Present) working on hospitality and supply-chain applications, REST API integrations, Node.js and Python automations, and Microsoft Entra ID & server monitoring.",
+        "primaryCtaLabel": "johnbricksireneo@gmail.com",
+        "primaryCtaHref": "mailto:johnbricksireneo@gmail.com",
+        "secondaryCtaLabel": "LinkedIn ↗",
+        "secondaryCtaHref": "https://www.linkedin.com/in/johnbricksireneo",
+        "facts": [
+          { "label": "Role", "value": "Software Developer" },
+          { "label": "Company", "value": "Appergence Software OPC" },
+          { "label": "Experience", "value": "Feb 2025 – Present" },
+          { "label": "Location", "value": "Philippines" },
+          { "label": "Phone", "value": "+63 956 934 4631", "href": "tel:+639569344631" }
+        ]
+      }
+    },
+    {
+      "id": "projects",
+      "type": "projects",
+      "visible": true,
+      "kicker": "01 / SELECTED WORK",
+      "title": "Projects & Engineering Case Studies",
+      "layout": "2-col-featured",
+      "style": {
+        "surface": "paper",
+        "padding": "normal",
+        "divider": true,
+        "align": "left"
+      },
+      "data": {
+        "items": [
+          {
+            "id": "proj-reallife",
+            "visible": true,
+            "featured": true,
+            "cat": "fullstack",
+            "meta": "Full-Stack Web App · NGO Portal",
+            "title": "Real LIFE Foundation Scholarship Application Portal",
+            "description": "Zero-dependency full-stack scholarship intake and screening portal supporting both SQLite REST mode and static file:// demo mode. Includes OTP login, a 5-stage live screening pipeline, versioned document uploads, applicant–staff chat, Leaflet house visitation mapping, flattened PDF dossiers & demographics reports, formula-safe CSV export, RBAC/audit logging, and Philippine RA 10173 privacy compliance.",
+            "image": "screenshots/reallife-logo.png",
+            "imageAlt": "Real LIFE Foundation Logo",
+            "imageMode": "logo",
+            "tech": ["Python 3", "SQLite", "JavaScript", "Bootstrap 5", "Leaflet Maps", "PDF Reports", "RBAC & Audit"],
+            "footerLeft": "Real LIFE Foundation (Configurable Center Branding)",
+            "footerLinkLabel": "View Repository ↗",
+            "footerLinkHref": "https://github.com/JohnyBricky/scholarship-application-portal"
+          },
+          {
+            "id": "proj-uptime",
+            "visible": true,
+            "featured": false,
+            "cat": "infra",
+            "meta": "IT Operations · Identity & Monitoring",
+            "title": "Microsoft Entra ID SSO & Uptime Kuma Monitoring",
+            "description": "Administered Microsoft Entra ID provisioning/SSO and office networks while deploying Uptime Kuma across 22 production services (legacy, next-gen, and NDA enterprise collaboration & workforce systems) with 25-second polling and multi-channel incident alerts.",
+            "metrics": [
+              { "num": "22", "label": "Monitored Services", "sub": "9 Classic · 7 NextGen · 6 NDA" },
+              { "num": "98.3%–99.97%", "label": "Tracked Uptime SLA", "sub": "24h / 30d / 1y · 3–7 ms avg" },
+              { "num": "25s", "label": "Health Poll Interval", "sub": "~76,000+ checks / day" },
+              { "num": "3 Channels", "label": "Incident Alerting", "sub": "Outlook · Teams · Telegram" }
+            ],
+            "tech": ["Microsoft Entra ID", "Uptime Kuma", "MS Teams", "Outlook", "Telegram", "Windows Server"],
+            "footerLeft": "22 Monitors · 25s Polling",
+            "footerRight": "Case Study (NDA-safe)"
+          },
+          {
+            "id": "proj-dugtong",
+            "visible": true,
+            "featured": false,
+            "cat": "mobile",
+            "meta": "Mobile App · Special Project Research",
+            "title": "Dugtong Buhay Para Kay Juan (Basic Life Support App)",
+            "description": "Served as Project Manager & Full-Stack Developer for an offline-first BLS and first aid preparedness app for the University of Makati, featuring interactive CPR/choking guides, nearest hospital map, emergency help, QR medical info, first aid kit checklist, and quizzes.",
+            "image": "screenshots/dugtong-buhay.png",
+            "imageAlt": "Dugtong Buhay Para Kay Juan mobile app screenshots",
+            "imageMode": "contain",
+            "tech": ["Flutter", "Dart", "Android Studio", "flutter_map", "QR Scanner", "Offline-First"],
+            "footerLeft": "University of Makati",
+            "footerRight": "Mobile App (v2.0)"
+          },
+          {
+            "id": "proj-nivadelir",
+            "visible": true,
+            "featured": false,
+            "cat": "mobile",
+            "meta": "Game Development · Android",
+            "title": "Nivadelir Tales Rothnir (2D Android Platformer)",
+            "description": "Developed a 2D Android platformer game in Unity; awarded 2nd Runner-Up in Android App Development Game at INFOTECHNOLYPICS 2025.",
+            "deck": {
+              "badge": "INFOTECHNOLYPICS 2025 · 2nd Runner-Up",
+              "title": "Nivadelir Tales Rothnir",
+              "subtitle": "2D Android Platformer · Competition Pitch Deck",
+              "buttonLabel": "Open Presentation Slides (Canva) ↗",
+              "href": "https://canva.link/x1ennc8ithgtxlc"
+            },
+            "tech": ["Unity", "C#", "Android", "2D Platformer"],
+            "footerLeft": "2nd Runner-Up Award",
+            "footerLinkLabel": "View Slides ↗",
+            "footerLinkHref": "https://canva.link/x1ennc8ithgtxlc"
+          },
+          {
+            "id": "proj-awareim",
+            "visible": true,
+            "featured": false,
+            "cat": "fullstack",
+            "meta": "Engineering Tooling · NDA Case Study",
+            "title": "External AwareIM GitHub Merger Utility",
+            "description": "Architected and directed an external merger utility by analyzing core Java files and specifying custom merge logic—replacing manual check-in/check-out steps with a clean Git/GitHub version-control workflow.",
+            "specNote": "Outcome: Eliminated manual lock contention and enabled branch-based team collaboration for AwareIM builds.",
+            "tech": ["Java", "Git / GitHub", "AwareIM"],
+            "footerLeft": "Appergence Software OPC",
+            "footerRight": "Architecture Case Study"
+          },
+          {
+            "id": "proj-automation",
+            "visible": true,
+            "featured": false,
+            "cat": "fullstack infra",
+            "meta": "Internal Tooling · Automation",
+            "title": "Node.js & Python Workflow Automation + REST APIs",
+            "description": "Built internal workflow tools in Node.js and Python and integrated external hospitality and supply-chain services through RESTful APIs validated with Postman and Faucet API.",
+            "specNote": "Scope: Automated data migrations, API sync jobs, and repeatable backend validation scripts.",
+            "tech": ["Node.js", "Python", "REST APIs", "Postman", "MySQL"],
+            "footerLeft": "Production Internal Tools",
+            "footerRight": "NDA Case Study"
+          },
+          {
+            "id": "proj-umak",
+            "visible": true,
+            "featured": false,
+            "cat": "fullstack",
+            "meta": "Academic Systems · Full-Stack & Desktop",
+            "title": "University of Makati Coursework Systems",
+            "description": "Built a responsive PHP/HTML/CSS/Bootstrap web application, a normalized MySQL inventory CRUD database, an OOP Java file-processing utility, and a C# Windows Forms + MS Access desktop system.",
+            "tech": ["PHP", "MySQL", "Java", "C#", "Bootstrap"],
+            "footerLeft": "University of Makati",
+            "footerRight": "Web & Desktop Foundations"
+          }
+        ]
+      }
+    },
+    {
+      "id": "skills",
+      "type": "capabilities",
+      "visible": true,
+      "kicker": "02 / CAPABILITIES",
+      "title": "Technical Stack",
+      "layout": "3-col",
+      "style": {
+        "surface": "paper",
+        "padding": "normal",
+        "divider": true,
+        "align": "left"
+      },
+      "data": {
+        "items": [
+          {
+            "title": "Languages & Web",
+            "body": "JavaScript (Node.js), Python, PHP, Java, C#, C++, Dart, HTML5, CSS3, Bootstrap, Kendo UI, AwareIM"
+          },
+          {
+            "title": "APIs, Databases & Mobile",
+            "body": "REST APIs, Postman, Faucet API, MySQL, SQLite, Microsoft Access, Flutter, Android Studio, Unity"
+          },
+          {
+            "title": "IT Ops, Identity & Workflow",
+            "body": "Microsoft Entra ID (SSO, Provisioning), Microsoft 365, Windows Server, Uptime Kuma, TCP/IP, DNS/DHCP, Git/GitHub"
+          }
+        ]
+      }
+    },
+    {
+      "id": "experience",
+      "type": "experience",
+      "visible": true,
+      "kicker": "03 / BACKGROUND",
+      "title": "Experience & Education",
+      "layout": "2-col",
+      "style": {
+        "surface": "paper",
+        "padding": "normal",
+        "divider": true,
+        "align": "left"
+      },
+      "data": {
+        "items": [
+          {
+            "period": "FEB 2025 – PRESENT",
+            "title": "Appergence Software OPC",
+            "body": "Software Developer (Full-Time Jun 2025 – Present; OJT Intern Feb–May 2025). Hospitality & supply-chain SaaS, REST APIs, Node.js/Python tools, data migrations, Entra ID & server monitoring."
+          },
+          {
+            "period": "2022 – 2025",
+            "title": "University of Makati",
+            "body": "Diploma in Application Development (Completed) · BS Computer Science Undergraduate (Completed up to 3rd Year)."
+          }
+        ]
+      }
+    }
+  ]
+}
